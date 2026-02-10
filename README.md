@@ -13,6 +13,8 @@ A retro-themed historical explorer for the original Bitcoin v0.01 source code in
 *   **Author:** Satoshi Nakamoto
 *   **Original Client Language (UI):** Thai (Reconstructed from original UI elements and instructions)
 
+
+
 ## Introduction (บทนำ)
 
 บิตคอยน์เป็นระบบเงินอิเล็กทรอนิกส์ที่ใช้เครือข่ายแบบบุคคลต่อบุคคลเพื่อป้องกันการใช้จ่ายซ้ำซ้อน เป็นระบบกระจายศูนย์อย่างสมบูรณ์โดยไม่มีเซิร์ฟเวอร์หรือหน่วยงานกลาง
@@ -94,3 +96,21 @@ This application integrates an AI-powered historian designed to answer your quer
 ## Aesthetics
 
 The explorer is designed with a retro-themed, CRT-like interface, evoking the feel of early 2000s computing and command-line interfaces.
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/drive/1jb37JZXxUWN4hQTb6cHzKkLOJz7pn-nH
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
+
