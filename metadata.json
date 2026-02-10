@@ -1,0 +1,7 @@
+{
+  "name": "Bitcoin v0.01 Genesis Explorer",
+  "description": "A retro-themed historical explorer for the original Bitcoin v0.01 source code instructions by Satoshi Nakamoto. Features an AI-powered code historian to explain 2009-era blockchain architecture.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
